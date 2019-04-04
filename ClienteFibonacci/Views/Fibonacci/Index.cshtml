@@ -1,0 +1,43 @@
+﻿@model int[]
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Calcular Secuencia Fibonacci</h2>
+<form method="post">
+    <div>
+        <label>
+            Número
+        </label>
+        <input type="number" name="num" placeholder="Introduce un número a calcular" class="form-control" />
+    </div>
+    <div>
+        <button type="submit" class="btn-success">Calcular</button>
+    </div>
+</form>
+<hr />
+@if (Model != null)
+{
+    <h3>Resultado Fibonacci</h3>
+    <table class="table table-bordered" style="border:2px solid black;">
+        <thead>
+            <tr>
+                <th style="color:white;font-weight:bold;background-color:darkslateblue;">
+                    Valores
+                </th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach(int n in Model)
+            {
+                <tr>
+                    <td>@n</td>
+                </tr>
+            }
+        </tbody>
+    </table>
+}
+else
+{
+    <h3>Sin resultados...</h3>
+}

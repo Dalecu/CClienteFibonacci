@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="596f552a-95a3-41fb-8566-6a6543c0e8a3" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <GenerateTaskBasedAsynchronousMethod>true</GenerateTaskBasedAsynchronousMethod>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://serviciofibonaccidma.cloudapp.net/ServicioFibonacci.svc" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="ServicioFibonacci.wsdl" MetadataType="Wsdl" ID="63f40d63-efa5-493b-96b0-89af329c9962" SourceId="1" SourceUrl="http://serviciofibonaccidma.cloudapp.net/ServicioFibonacci.svc?wsdl" />
+    <MetadataFile FileName="ServicioFibonacci.xsd" MetadataType="Schema" ID="c76e8e38-894e-44d6-b75e-4c6a6821401d" SourceId="1" SourceUrl="http://serviciofibonaccidma.cloudapp.net/ServicioFibonacci.svc?xsd=xsd1" />
+    <MetadataFile FileName="ServicioFibonacci.disco" MetadataType="Disco" ID="f2a16a7b-4dfe-44cd-9af0-e1e27bc83507" SourceId="1" SourceUrl="http://serviciofibonaccidma.cloudapp.net/ServicioFibonacci.svc?disco" />
+    <MetadataFile FileName="ServicioFibonacci1.xsd" MetadataType="Schema" ID="919562e5-576c-4c1c-becd-9dd351a879d0" SourceId="1" SourceUrl="http://serviciofibonaccidma.cloudapp.net/ServicioFibonacci.svc?xsd=xsd0" />
+    <MetadataFile FileName="ServicioFibonacci2.xsd" MetadataType="Schema" ID="4cc38fd1-a05d-46a9-bbcc-df2518626dde" SourceId="1" SourceUrl="http://serviciofibonaccidma.cloudapp.net/ServicioFibonacci.svc?xsd=xsd2" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>
